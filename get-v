@@ -1,0 +1,11 @@
+#!/bin/bash
+ST=0
+TR=0
+MAX=100
+
+while 
+        youtube-dl -c $1
+        (( $? > $ST && ++TR && $TR < $MAX ))
+do
+    :
+done
