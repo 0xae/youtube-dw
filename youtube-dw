@@ -26,10 +26,11 @@ if __name__ == "__main__":
         if is_playlist:
             print "RESUMING AT %d" % last_pl_index
             command = ['youtube-dl', 
-                        '%s --playlist-start %s' % (video_url, str(last_pl_index))]
+                        '"%s" --playlist-start %s' % (video_url, str(last_pl_index))]
         else:
             command = ['youtube-dl', video_url]
 
+        print ' '.join(command)
         p = subprocess.Popen(command, 
                                 stdout=subprocess.PIPE, 
                                 stderr=subprocess.PIPE)
