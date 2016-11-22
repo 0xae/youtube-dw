@@ -9,7 +9,6 @@ if __name__ == "__main__":
     argc = len(sys.argv)
     argv = sys.argv
     tries = 1
-    playlist_idx = 1
 
     if argc < 2:
         print "usage: getv.py <video-url> [<playlist-idx>]"
