@@ -3,7 +3,7 @@ youtube-dw
 
 a youtube (playlist specialized) resumer.
 
-it depends on `youtube-dl` so install it first at [https://rg3.github.io/youtube-dl/](youtube-dl)
+it depends on `youtube-dl` so install it first at [https://rg3.github.io/youtube-dl/](https://rg3.github.io/youtube-dl/)
 
 usage
 =====
