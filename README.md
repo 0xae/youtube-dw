@@ -11,3 +11,11 @@ usage
 youtube-dw will resume the last video of the playlist (if the url provided is a playlist)
 
 and will keep trying for 100 times
+
+i used it to download a playlist containing +100 videos of anime music.
+
+youtube-dl would fail and restart the whole thing from the start (skipping the already downloaded videos of course)
+
+which would make the process a whole lot slower. so i wrote this and it resumes the download **exactly** where it was
+
+thank you
